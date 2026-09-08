@@ -2,7 +2,7 @@
 
 A suite of R/Shiny apps for designing CRISPR and RNAi reagents from a gene symbol or genomic coordinate, using the **hg38** reference genome.
 
-**[View the screenshot demo / GitHub Pages site →](https://REPLACE_WITH_YOUR_GITHUB_USERNAME.github.io/gRNA-shRNA-Designer/)**
+**[View the screenshot demo / GitHub Pages site →](https://JerryJiajun.github.io/gRNA-shRNA-Designer/)**
 
 ## Apps
 
@@ -10,8 +10,8 @@ A suite of R/Shiny apps for designing CRISPR and RNAi reagents from a gene symbo
 |---|---|---|
 | CRISPR/Cas9 Knockout gRNA Designer | [`app1_CRISPR_KO_gRNA.R`](app1_CRISPR_KO_gRNA.R) | Pulls a gene's merged exons from hg38 and scans selected exons for SpCas9 guides, scoring each for on-target efficiency and off-target risk to surface the strongest frameshift-KO candidates. |
 | CRISPRi Knockdown gRNA Designer | [`app2_CRISPRi_KD_gRNA.R`](app2_CRISPRi_KD_gRNA.R) | Locates a gene's TSS in hg38, scans the promoter window on both strands, and reports signed distance-to-TSS for each guide — flagging the −50 to +300 bp zone where CRISPRi silencing is most effective. |
-| CRISPR SNP Knock-in Designer | [`app3_CRISPR_KO_SNP_knockin.R`](app3_CRISPR_KO_SNP_knockin.R) | Verifies a SNP's reference allele against hg38, ranks nearby guides by cut-site distance, and auto-builds an ssODN repair template with an optional PAM-disrupting mutation. |
-| Gene Knockdown shRNA Designer | [`app4_gene_KD_shRNA.R`](app4_gene_KD_shRNA.R) | Scans every annotated transcript of a gene for candidate siRNA target sites, scores each by Reynolds/Schwarz-Khvorova design rules, and returns a ready-to-clone U6/H1 hairpin. |
+| CRISPR SNP Knock-in Designer | [`app4_CRISPR_KO_SNP_knockin.R`](app4_CRISPR_KO_SNP_knockin.R) | Verifies a SNP's reference allele against hg38, ranks nearby guides by cut-site distance, and auto-builds an ssODN repair template with an optional PAM-disrupting mutation. |
+| Gene Knockdown shRNA Designer | [`app3_gene_KD_shRNA.R`](app3_gene_KD_shRNA.R) | Scans every annotated transcript of a gene for candidate siRNA target sites, scores each by Reynolds/Schwarz-Khvorova design rules, and returns a ready-to-clone U6/H1 hairpin. |
 
 ## Running the apps
 
